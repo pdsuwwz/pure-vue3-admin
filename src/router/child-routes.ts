@@ -44,7 +44,7 @@ const systemRouteList = [
     component: LayoutView,
     children: [
       {
-        path: 'result/:projectId',
+        path: ':projectId',
         component: Layout,
         name: 'result',
         icon: 'eye',
