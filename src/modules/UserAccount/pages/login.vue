@@ -88,7 +88,6 @@ const useLogin = (router, store: IUserAccount, route) => {
 
       ElMessage.success('登录成功！')
       Cookie.set('token', data.Authorization)
-      Cookie.set('name', data.user.username)
       router.push('/')
     })
   }

@@ -31,7 +31,16 @@ router.beforeEach(async(to, from, next) => {
     return
   }
 
-  // 获取用户信息
+  // 如果不存在 token 则直接返回登录页
+  if (!Cookie.get('token')) {
+    userAccountStore.setLanguage({
+      locale: currentRouteLocale || userAccountStore.locale
+    })
+    next(`/${ currentRouteLocale || userAccountStore.locale }/user/login`)
+    return
+  }
+
+  // 如果存在 token 则通过获取用户信息来校验 token 的有效性
   const { data, error } = await userAccountStore.getUserInfo()
 
   if (error) {
@@ -39,27 +48,11 @@ router.beforeEach(async(to, from, next) => {
       locale: currentRouteLocale || data.language
     })
     Cookie.remove('token')
-    Cookie.remove('name')
-    next('/en/user/login')
+    next(`/${ currentRouteLocale || data.language }/user/login`)
     return
   }
 
-  if (data.user.username && Cookie.get('name') === data.user.username) {
-    // TODO: It must be used together with the backend
-    userAccountStore.setLanguage({
-      locale: currentRouteLocale || data.language
-    })
-    next()
-    return
-  }
-
-  // ElMessage.error('登录失败，请重新登录')
-  Cookie.remove('token')
-  Cookie.remove('name')
-  userAccountStore.setLanguage({
-    locale: currentRouteLocale || userAccountStore.locale
-  })
-  next(`/${ currentRouteLocale || userAccountStore.locale }/user/login`)
+  next()
 })
 
 router.afterEach((to) => {
