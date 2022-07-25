@@ -31,10 +31,10 @@
           placeholder="密码"
         />
       </el-form-item>
-      <el-form-item style="width:100%;">
+      <el-form-item style="width: 100%;">
         <el-button
           type="primary"
-          style="width:100%;"
+          style="width: 100%;"
           class="btn-submit"
           @click="handleSubmit()"
         >
@@ -129,43 +129,47 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
+.login-containers {
+  width: 100%;
+  height: 100%;
+  position: relative;
 
-  .login-containers {
-    width: 100%;
-    height: 100%;
-    position: relative;
-      .login-page {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
-        margin: auto;
-        width: 350px;
-        height: 285px;
-        padding: 35px 35px 15px;
-        background: #fff;
-        border: 1px solid #eaeaea;
-        box-shadow: 0 0 25px #cac6c6;
-        .login-title {
-          margin: 0px auto 15px;
-          text-align: center;
-        }
-        .login-rememberme {
-          margin: 5px 0px 15px;
-          text-align: center;
-        }
-        :deep() {
-          .el-input {
-            margin-bottom: 10px
-          }
-        }
-        .btn-submit {
-          margin-top: 10px;
-        }
-   }
+  .login-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    margin: auto;
+    width: 350px;
+    height: 285px;
+    padding: 35px 35px 15px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 25px #cac6c6;
+
+    .login-title {
+      margin: 0 auto 15px;
+      text-align: center;
+    }
+
+    .login-rememberme {
+      margin: 5px 0 15px;
+      text-align: center;
+    }
+
+    :deep() {
+
+      .el-input {
+        margin-bottom: 10px;
+      }
+    }
+
+    .btn-submit {
+      margin-top: 10px;
+    }
+  }
 }
 
 </style>

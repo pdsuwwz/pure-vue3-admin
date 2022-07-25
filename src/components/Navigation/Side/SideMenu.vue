@@ -61,15 +61,17 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 // navigation-side-menu
-$ns: 'nav-s-menu';
+$ns: "nav-s-menu";
 .#{$ns} {
   width: 224px;
   flex: 1;
   min-height: 0;
   color: #fff;
+
   &-inner {
     height: 100%;
     overflow-y: auto;
+
     // border: 1px solid red;
   }
 }

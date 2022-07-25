@@ -43,18 +43,22 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   height: 100%;
+
   .layout-section-container__content {
     display: flex;
     flex-direction: column;
     position: relative;
     flex: auto;
     min-height: 0;
+
     .content-divider {
       height: 1px;
       background: #dcdfe6;
       margin-bottom: 6px;
     }
+
     .layout-section-container__content-inner {
+
       &.is-flex {
         flex: 1;
         display: flex;

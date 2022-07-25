@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/pdsuwwz/pure-vue3-admin?color=ffd932)](https://github.com/pdsuwwz/pure-vue3-admin/blob/main/LICENSE)
 
-🪢 A Vue 3.x Pure Admin Prototyping Template built on Vite 2.x + TypeScript + Pinia@next
+🪢 A Vue 3.x Pure Admin Prototyping Template built on Vite 3.x + TypeScript + Pinia@next
 
 ## Install
 

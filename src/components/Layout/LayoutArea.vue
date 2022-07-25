@@ -42,6 +42,7 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 $headerHeight: 48px;
+
 .layout-area-container {
   display: flex;
   flex-direction: column;
@@ -50,42 +51,53 @@ $headerHeight: 48px;
   min-height: 100vh;
   overflow: hidden;
   background: #f0f2f5;
+
   .layout-area-container__bottom {
     display: flex;
     flex: 1;
     position: relative;
     color: #303133;
+
     .layout-area-container__bottom__inner {
       position: absolute;
+
       // top: 1px;
+
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       display: flex;
+
       .side-layout-area-menu-bar {
         position: relative;
         flex-direction: column;
+
         // width: 224px;
-        transition: width .28s;
+
+        transition: width 0.28s;
         border-right: 1px solid #dcdfe6;
         overflow-x: hidden;
         overflow-y: auto;
-        background-color: #36383D;
+        background-color: #36383d;
         scroll-behavior: smooth;
       }
+
       .content-section-container {
         display: flex;
         flex: auto;
         flex-direction: column;
         min-width: 0;
         background-color: #f0f2f5;
+
         .main-content-top {
 
         }
+
         .main-content-box {
           flex: auto;
           position: relative;
+
           .inner-content {
             padding: 16px;
             position: absolute;
@@ -97,8 +109,9 @@ $headerHeight: 48px;
             scroll-behavior: smooth;
           }
         }
+
         .main-content-footer {
-          color: #36383D;
+          color: #36383d;
           text-align: center;
           line-height: 40px;
           border-top: 1px solid #ddd;

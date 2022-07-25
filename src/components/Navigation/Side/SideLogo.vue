@@ -39,6 +39,7 @@ export default defineComponent({
   position: relative;
   height: 56px;
   white-space: nowrap;
+
   & > a {
     display: flex;
     align-items: center;
@@ -46,16 +47,18 @@ export default defineComponent({
     height: 100%;
     color: #fff;
     font-size: 16px;
+
     .side-logo-img {
       height: 30px;
     }
+
     .side-logo-title {
       height: 32px;
       line-height: 32px;
       font-size: 16px;
       font-weight: 600;
       margin-left: 12px;
-      font-family: PingFangSC-Regular, PingFang SC;
+      font-family: PingFangSC-Regular, "PingFang SC";
     }
   }
 }
