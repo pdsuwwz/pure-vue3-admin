@@ -16,7 +16,7 @@ A Vue 3.x Pure Admin Prototyping Template
 - [x] Vue Router
 - [x] Pinia (Vuex 5)
 - [x] Element Plus 2.x
-- [x] Jest 28.x + Unit Test
+- [x] Jest 29.x + Unit Test
 - [x] Lint + Eslint + Stylelint
 - [x] Axios
 - [x] Lodash
