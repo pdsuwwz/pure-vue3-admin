@@ -1,6 +1,9 @@
 # pure-vue3-admin
 
 [![License](https://img.shields.io/github/license/pdsuwwz/pure-vue3-admin?color=ffd932)](https://github.com/pdsuwwz/pure-vue3-admin/blob/main/LICENSE)
+[![License](https://img.shields.io/github/package-json/dependency-version/pdsuwwz/pure-vue3-admin/element-plus)](https://github.com/pdsuwwz/pure-vue3-admin)
+[![License](https://img.shields.io/github/package-json/dependency-version/pdsuwwz/pure-vue3-admin/vue?color=ffd932)](https://github.com/pdsuwwz/pure-vue3-admin)
+[![License](https://img.shields.io/github/package-json/dependency-version/pdsuwwz/pure-vue3-admin/dev/vite?color=ffd932)](https://github.com/pdsuwwz/pure-vue3-admin)
 
 A Vue 3.x Pure Admin Prototyping Template
 
