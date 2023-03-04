@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/pdsuwwz/pure-vue3-admin",
   "dependencies": {
-    "@element-plus/icons-vue": "2.0.10",
+    "@element-plus/icons-vue": "2.1.0",
     "axios": "1.3.2",
     "echarts": "^5.4.0",
     "element-plus": "2.2.30",
