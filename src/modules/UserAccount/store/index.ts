@@ -18,7 +18,7 @@ const useUserAccount = defineStore('UserAccount', {
     }
   },
   getters: {
-    demoList: state => state.demoList
+    // demoList: state => state.demoList
   },
   actions: {
     async GetModuleTestList(params) {
