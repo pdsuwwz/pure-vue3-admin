@@ -28,6 +28,12 @@ A Vue 3.x Pure Admin Prototyping Template
 - [x] Modular
 - [x] Alias Path
 
+## Screenshot
+
+<img width="1324" alt="image" src="https://github.com/pdsuwwz/pure-vue3-admin/assets/19891724/a13d0759-829f-41f4-a2fa-aa885496d8c7">
+<img width="1324" alt="image" src="https://github.com/pdsuwwz/pure-vue3-admin/assets/19891724/acbb049b-c34a-472b-acaf-b7c00788e89b">
+
+
 ## Install
 
 ```
