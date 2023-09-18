@@ -11,8 +11,8 @@ import { ElConfigProvider } from 'element-plus'
 import { useRoute, useRouter } from 'vue-router'
 import { defineComponent, computed, watch } from 'vue'
 
-import zhCn from 'element-plus/lib/locale/lang/zh-cn'
-import en from 'element-plus/lib/locale/lang/en'
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+import en from 'element-plus/dist/locale/en.mjs'
 
 import selfEn from '@/locales/lang/en'
 import selfZhHans from '@/locales/lang/zh-hans'
