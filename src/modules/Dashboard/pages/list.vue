@@ -1,6 +1,10 @@
 <template>
   <div class="dashboard-index">
-    <div style="height: 1500px;">Dashboard Index 页面</div>
+    <div
+      style="height: 1500px;"
+    >
+      Dashboard Index 页面
+    </div>
   </div>
 </template>
 
