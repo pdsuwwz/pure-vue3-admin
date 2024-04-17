@@ -13,14 +13,14 @@ A Vue 3.x Pure Admin Prototyping Template
 
 模板已集成以下技术栈，可按需引用
 
-- [x] Vite 4.x
+- [x] Vite 5.x
 - [x] Vue 3.x
 - [x] TypeScript
 - [x] Vue Router
 - [x] Pinia (Vuex 5)
 - [x] Element Plus 2.x
 - [x] Jest 29.x + Unit Test
-- [x] Lint + Eslint + Stylelint
+- [x] Lint + Flat Eslint(v9) + Stylelint
 - [x] Axios
 - [x] Lodash
 - [x] Echarts
