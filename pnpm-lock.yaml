@@ -96,7 +96,7 @@ devDependencies:
     version: 2.1.0
   eslint-plugin-html:
     specifier: ^8.1.0
-    version: 8.1.0
+    version: 8.1.1
   eslint-plugin-import:
     specifier: ^2.29.1
     version: 2.29.1(@typescript-eslint/parser@7.7.0)(eslint@9.0.0)
@@ -3699,8 +3699,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-html@8.1.0:
-    resolution: {integrity: sha512-5bRZQwxZew2Yo9Fa8diz2C9RmzIw9Gs4yzmmjUcpuzhdLW8aVcDtYzEHhNNdt01Z0m4AzSJNuY63RXvzStvDgA==}
+  /eslint-plugin-html@8.1.1:
+    resolution: {integrity: sha512-6qmlJsc40D2m3Dn9oEH+0PAOkJhxVu0f5sVItqpCE0YWgYnyP4xCjBc3UWTHaJcY9ARkWOLIIuXLq0ndRnQOHw==}
     engines: {node: '>=16.0.0'}
     dependencies:
       htmlparser2: 9.1.0
