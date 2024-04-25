@@ -7,7 +7,7 @@
 
 A Vue 3.x Pure Admin Prototyping Template
 
-📦 一个纯净的 Vue3 模板，吸收敏捷开发思想，搭建基于 Vite4 + Vue3 + TypeScript + Pinia@next 的业务项目框架，实现快速开发，开箱即用
+📦 一个纯净的 Vue3 模板，吸收敏捷开发思想，搭建基于 Vite5 + Vue3 + TypeScript + Pinia@next 的业务项目框架，实现快速开发，开箱即用
 
 ## Features
 
@@ -17,7 +17,7 @@ A Vue 3.x Pure Admin Prototyping Template
 - [x] Vue 3.x
 - [x] TypeScript
 - [x] Vue Router
-- [x] Pinia (Vuex 5)
+- [x] Pinia (替代 Vuex)
 - [x] Element Plus 2.x
 - [x] Jest 29.x + Unit Test
 - [x] Lint + Flat Eslint(v9) + Stylelint
@@ -44,7 +44,7 @@ pnpm install
 ## Run
 
 ```
-pnpm serve
+pnpm dev
 ```
 
 ## Test
