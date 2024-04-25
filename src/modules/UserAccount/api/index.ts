@@ -2,11 +2,7 @@ import request from '@/utils/request'
 
 const UserAccountAPI = {
   login(data) {
-    // return request({
-    //   url: '/login',
-    //   method: 'post',
-    //   data
-    // })
+    // return request.post('/login', data)
 
     return {
       error: 0,
@@ -24,18 +20,11 @@ const UserAccountAPI = {
     }
   },
   logout() {
-    return request({
-      url: '/logout',
-      method: 'post'
-    })
+    return request.post('/logout')
   },
 
   getUserInfoData(params = {}) {
-    // return request({
-    //   url: '/user_info',
-    //   method: 'get',
-    //   params
-    // })
+    // return request.get('/user_info', params)
     return {
       error: 0,
       msg: 'OK',
@@ -54,41 +43,24 @@ const UserAccountAPI = {
 
   // 切换后端语言
   updateChangeLanguage(data) {
-    return request({
-      url: '/acl/changelanguage',
-      method: 'post',
-      data
-    })
+    return request.post('/acl/changelanguage', data)
   },
 
   getDemoTestList(params) {
-    return request({
-      url: '/api/demo_test/list',
-      method: 'get',
-      params
-    })
+    return request.get('/demo_test/list', params)
   },
 
   createDemoTest(data) {
-    return request({
-      url: '/api/demo_test',
-      method: 'post',
-      data
-    })
+    return request.post('/demo_test/', data)
   },
 
   updateDemoTest(data) {
-    return request({
-      url: `/api/demo_test/${ data.demoId }`,
-      method: 'put',
-      data
-    })
+    return request.put('/demo_test', data)
   },
 
-  deleteDemoTest(demoId) {
-    return request({
-      url: `/api/demo_test/${ demoId }`,
-      method: 'delete'
+  deleteDemoTest(params) {
+    return request.delete('/demo_test', {
+      params
     })
   }
 }

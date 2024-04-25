@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard-demo">
-    Dashboard Demo
+    Dashboard Demo2
   </div>
 </template>
 <script lang="ts">

@@ -2,18 +2,10 @@ import request from '@/utils/request'
 
 const DashboardAPI = {
   getDashboardList(params) {
-    return request({
-      url: '/dashboard/list',
-      method: 'get',
-      params
-    })
+    return request.get<{aa: string;}>('/dashboard/list', params)
   },
   getDashboardDemo(params) {
-    return request({
-      url: '/dashboard/demo',
-      method: 'get',
-      params
-    })
+    return request.get('/dashboard/demo', params)
   }
 }
 
