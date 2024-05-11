@@ -50,7 +50,7 @@ const useUserAccount = defineStore('UserAccount', {
     },
     async getUserInfo() {
       const res = await UserAccountAPI.getUserInfoData()
-      await sleep(1000)
+      await sleep(300)
       return this.filterResponse(res, ({ data }) => {
         this.userInfo = data
       })
